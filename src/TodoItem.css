@@ -1,0 +1,46 @@
+.TodoItem{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #523f00;
+    border: 1px solid #523f00;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+}
+
+.TodoItemP{
+    width: 70%;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: start;
+    padding: 0px 15px;
+}
+
+.TodoItemInActive{
+    background-color: rgba(255,255,255,0.75);
+}
+
+.TodoItemCompleted{
+    margin-top: 6px;
+}
+
+.TodoItemCompletedGreen{
+    color: rgba(0,0,0,0.35);
+}
+
+.TodoItemPCompleted{
+    text-transform:capitalize;
+    color: rgba(0,0,0,0.35);
+}
+
+.TodoItemDelete{
+    display: block;
+}
+
+.TodoItemDeleteHide{
+    display: block;
+    color: rgba(0,0,0,0.35);
+}
