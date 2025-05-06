@@ -44,3 +44,34 @@
     display: block;
     color: rgba(0,0,0,0.35);
 }
+
+.checkIcon{
+    cursor: pointer;
+    font-size: 30px;
+    transition: all 0.3s ease-in-out;
+}
+.checkIcon:hover{
+    color: red;
+    transition: all 0.3s ease-in-out;
+}
+
+.unCheckIcon{
+    cursor: pointer;
+    font-size: 30px;
+    transition: all 0.3s ease-in-out;
+}
+.unCheckIcon:hover{
+    color: green;
+    transition: all 0.3s ease-in-out;
+}
+
+.trashIcon{
+    cursor: pointer;
+    font-size: 30px;
+    transition: all 0.3s ease-in-out;
+}
+.trashIcon:hover{
+    Content: "DELETE";
+    color: red;
+    transition: all 0.3s ease-in-out;
+}
